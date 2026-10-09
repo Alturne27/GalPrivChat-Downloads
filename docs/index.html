@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Aucune ressource tierce : pas de police, script ou statistique externe
+       (cohérent avec PRIVACY.md). Seuls ce site et les fichiers des Releases
+       GitHub sont contactés. -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; img-src 'self'; style-src 'self'; script-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <title>Télécharger GalPrivChat</title>
+  <meta name="description" content="Télécharger GalPrivChat, messagerie chiffrée post-quantique, pour Android, Windows et iOS.">
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <img class="logo" src="icon.png" alt="" width="88" height="88">
+    <h1>GalPrivChat</h1>
+    <p class="tagline">Messagerie chiffrée post-quantique</p>
+    <p class="release" id="release-info">Chargement de la dernière version…</p>
+  </header>
+
+  <main>
+    <section class="platforms" id="platforms" aria-label="Téléchargements">
+      <article class="card" id="card-android" data-platform="android">
+        <div class="card-head">
+          <svg class="pf-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.2 9.5h9.6v7.3a1.2 1.2 0 0 1-1.2 1.2h-.8v2.3a1.2 1.2 0 0 1-2.4 0V18h-.8v2.3a1.2 1.2 0 0 1-2.4 0V18h-.8a1.2 1.2 0 0 1-1.2-1.2zM5 10a1.2 1.2 0 0 1 2.4 0v5a1.2 1.2 0 0 1-2.4 0zm11.6 0a1.2 1.2 0 0 1 2.4 0v5a1.2 1.2 0 0 1-2.4 0zM7.3 8.6a4.8 4.8 0 0 1 2.4-3.7L8.9 3.6a.3.3 0 0 1 .5-.3l.8 1.3a4.9 4.9 0 0 1 3.6 0l.8-1.3a.3.3 0 0 1 .5.3l-.8 1.3a4.8 4.8 0 0 1 2.4 3.7zM10 6.6a.6.6 0 1 0 0 1.2.6.6 0 0 0 0-1.2zm4 0a.6.6 0 1 0 0 1.2.6.6 0 0 0 0-1.2z"/></svg>
+          <h2>Android</h2>
+          <span class="badge recommended" hidden>Votre appareil</span>
+        </div>
+        <p class="meta">Fichier APK · Android 7 et plus</p>
+        <a class="btn" data-asset="android" aria-disabled="true">Télécharger l'APK</a>
+        <p class="hash" data-hash="android"></p>
+      </article>
+
+      <article class="card" id="card-windows" data-platform="windows">
+        <div class="card-head">
+          <svg class="pf-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.1 10.4 4v7.1H3zm8.3-1.2L21 2.5v8.6h-9.7zM3 12h7.4v7.1L3 18zm8.3 0H21v8.6l-9.7-1.4z"/></svg>
+          <h2>Windows</h2>
+          <span class="badge recommended" hidden>Votre appareil</span>
+        </div>
+        <p class="meta">Installateur · Windows 10 et 11 (64 bits)</p>
+        <a class="btn" data-asset="windows" aria-disabled="true">Télécharger l'installateur</a>
+        <p class="hash" data-hash="windows"></p>
+      </article>
+
+      <article class="card" id="card-ios" data-platform="ios">
+        <div class="card-head">
+          <svg class="pf-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8a4.6 4.6 0 0 0-3.6-2c-1.5-.2-3 .9-3.7.9-.8 0-2-.9-3.2-.8a4.8 4.8 0 0 0-4 2.4c-1.7 3-.4 7.4 1.2 9.8.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.1-.8 1.5 0 1.9.8 3.2.8 1.3 0 2.2-1.2 3-2.4a10 10 0 0 0 1.3-2.8 4.3 4.3 0 0 1-2.4-3.7zM14 5.2A4.3 4.3 0 0 0 15 2a4.4 4.4 0 0 0-2.9 1.5 4.1 4.1 0 0 0-1 3.1A3.6 3.6 0 0 0 14 5.2z"/></svg>
+          <h2>iPhone / iPad</h2>
+          <span class="badge recommended" hidden>Votre appareil</span>
+        </div>
+        <p class="meta" id="ios-meta">Bientôt disponible</p>
+        <a class="btn" id="ios-btn" hidden rel="noopener">Installer via TestFlight</a>
+        <p class="note" id="ios-note">La version iOS est en préparation. Apple n'autorisant pas
+          l'installation d'une application téléchargée depuis un site, elle sera distribuée
+          sur invitation (Ad Hoc ou TestFlight).</p>
+      </article>
+    </section>
+
+    <section class="help" aria-label="Aide à l'installation">
+      <h2>Installation</h2>
+
+      <details>
+        <summary>Android</summary>
+        <ol>
+          <li>Téléchargez l'APK puis ouvrez-le depuis la notification ou le dossier <em>Téléchargements</em>.</li>
+          <li>Si Android le demande, autorisez votre navigateur à <em>installer des applications inconnues</em> (Paramètres → Sécurité).</li>
+          <li>Appuyez sur <em>Installer</em>.</li>
+        </ol>
+        <p class="warn"><strong>Vous aviez une version antérieure à 1.1.0 ?</strong> Elle était signée
+          différemment : Android refusera la mise à jour. Notez d'abord votre <em>phrase de
+          récupération</em> (Paramètres de l'application), désinstallez l'ancienne version, puis
+          installez celle-ci et restaurez votre compte. À partir de la 1.1.0, les mises à jour
+          s'installent normalement par-dessus.</p>
+      </details>
+
+      <details>
+        <summary>Windows</summary>
+        <ol>
+          <li>Téléchargez et lancez l'installateur.</li>
+          <li>Si Windows affiche <em>« Windows a protégé votre ordinateur »</em> (éditeur non reconnu),
+            cliquez sur <em>Informations complémentaires</em> puis <em>Exécuter quand même</em>.</li>
+          <li>Les mises à jour s'installent par-dessus la version existante.</li>
+        </ol>
+      </details>
+
+      <details>
+        <summary>Vérifier l'intégrité du fichier</summary>
+        <p>Comparez l'empreinte SHA-256 affichée sous chaque bouton avec celle du fichier téléchargé :</p>
+        <pre><code>Windows (PowerShell) : Get-FileHash -Algorithm SHA256 .\NomDuFichier
+Linux / macOS :        sha256sum NomDuFichier</code></pre>
+        <p>Toutes les empreintes sont aussi publiées dans <a id="sums-link" rel="noopener">SHA256SUMS.txt</a>.</p>
+        <p>Certificat de signature Android (SHA-256) :</p>
+        <pre><code id="android-cert">—</code></pre>
+      </details>
+    </section>
+  </main>
+
+  <footer>
+    <p>Aucun cookie, aucun traceur, aucune statistique de visite.</p>
+    <p><a id="all-releases" rel="noopener">Toutes les versions</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
