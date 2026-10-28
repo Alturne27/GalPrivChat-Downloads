@@ -1,20 +1,20 @@
 {
-  "version": "1.1.2",
-  "tag": "v1.1.2",
-  "published_at": "2026-10-09T15:22:54Z",
+  "version": "1.2.0",
+  "tag": "v1.2.0",
+  "published_at": "2026-10-28T11:12:35Z",
   "releases_url": "https://github.com/Alturne27/GalPrivChat-Downloads/releases",
-  "sums_url": "https://github.com/Alturne27/GalPrivChat-Downloads/releases/download/v1.1.2/SHA256SUMS.txt",
+  "sums_url": "https://github.com/Alturne27/GalPrivChat-Downloads/releases/download/v1.2.0/SHA256SUMS.txt",
   "android": {
-    "name": "GalPrivChat-1.1.2.apk",
-    "url": "https://github.com/Alturne27/GalPrivChat-Downloads/releases/download/v1.1.2/GalPrivChat-1.1.2.apk",
-    "size": 75081618,
-    "sha256": "67822f4b57f4cfd01329b6812d81fa4bd6ff94e6a34cb135c6a5127afed33c57"
+    "name": "GalPrivChat-1.2.0.apk",
+    "url": "https://github.com/Alturne27/GalPrivChat-Downloads/releases/download/v1.2.0/GalPrivChat-1.2.0.apk",
+    "size": 75081702,
+    "sha256": "e634d651e241478f3f669bef31f02447d0a800f8aabe8df33755e2fd011b386b"
   },
   "windows": {
-    "name": "GalPrivChat-Setup-1.1.2.exe",
-    "url": "https://github.com/Alturne27/GalPrivChat-Downloads/releases/download/v1.1.2/GalPrivChat-Setup-1.1.2.exe",
-    "size": 13365657,
-    "sha256": "4fb760018538547e273bf3bef8922c3ca78eb6e0ac008e2ed0a1087ab4101806"
+    "name": "GalPrivChat-Setup-1.2.0.exe",
+    "url": "https://github.com/Alturne27/GalPrivChat-Downloads/releases/download/v1.2.0/GalPrivChat-Setup-1.2.0.exe",
+    "size": 13407536,
+    "sha256": "c4a4de92cbdc973fa36745bae5f0132e196f97206cbea0db3392a4ffc838c5a1"
   },
   "android_cert_sha256": "f7640ab6c6552a8bc7d35a0f9ea1c5742c5d6e033a101b2659ee95eea9f0a158",
   "ios": {
